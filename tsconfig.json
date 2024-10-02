@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+
+    "outDir": "./dist", //donde ejecuta los archivos
+    "rootDir": "./src", //donde encuentra los archivos
+    "lib": ["ESNext"], //que quieres soportar
+    "sourceMap": true,
+    "declaration": true,
+    /* Language and Environment */
+    "target": "ESNext", //utiliza siempre la version mas proxima
+    "moduleResolution": "NodeNext",                          
+    "module": "NodeNext",                              
+    "esModuleInterop": true,                            
+    "forceConsistentCasingInFileNames": true,           
+    /* Type Checking */
+    "strict": false,     // es recomendable que al comenzar este en false                             
+
+    "skipLibCheck": true ,
+    "experimentalDecorators":true ,
+    "emitDecoratorMetadata": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "src/**/*.test.ts"
+  ]
+}
